@@ -54,7 +54,7 @@ is shown below:
 from models.arachnet import ArachNet
 from models.subnetworks import UnetSubnet
 
-# Initialize the EPU-CNN model
+# Initialize the ArachNet model
 arachnet = ArachNet(init_size=64, subnet_act="tanh", arach_act="sigmoid", features_num=2,
                                   subnet=UnetSubnet)
 ```
