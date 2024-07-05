@@ -90,7 +90,7 @@ Detailed info to be added soon.
 - [ ] Add inference code
 - [ ] Add Wavelet PFM extraction
 - [ ] Add Multiclass Training and Evaluation code
-- [ ] Replace the .arxiv with official Scientific Reports citation
+- [ ] Add the ISBI2024 Reference
 
 ## Acknowledgement
 This work has been funded by the European Union, under
