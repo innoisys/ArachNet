@@ -3,8 +3,8 @@
 [![Readme](https://img.shields.io/badge/README-green.svg)](README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the official <b>Tensorflow</b> implementation of ARACHNET: INTERPRETABLE SUB-ARACHNOID SPACE SEGMENTATION USING AN 
-ADDITIVE CONVOLUTIONAL NEURAL NETWORK (publised in ISBI2024, official link to be added).
+This is the official <b>Tensorflow</b> implementation of [ARACHNET: INTERPRETABLE SUB-ARACHNOID SPACE SEGMENTATION USING AN 
+ADDITIVE CONVOLUTIONAL NEURAL NETWORK](https://ieeexplore.ieee.org/abstract/document/10635787/).
 
 ## Paper Abstract
 Considering the growing demand for interpretable deep
@@ -90,11 +90,25 @@ Detailed info to be added soon.
 - [ ] Add inference code
 - [ ] Add Wavelet PFM extraction
 - [ ] Add Multiclass Training and Evaluation code
-- [ ] Add the ISBI2024 Reference
+- [X] Add the ISBI2024 Reference
 
 ## Acknowledgement
 This work has been funded by the European Union, under
 grant agreement No 101099145, project **[SoftReach](https://softreach.eu/)**.
+
+## Citation
+If you find this work useful, please cite our paper:
+
+```
+@inproceedings{dimas2024arachnet,
+  title = {ArachNet: Interpretable Sub-Arachnoid Space Segmentation Using an Additive Convolutional Neural Network},
+  author = {Dimas, George and Kalozoumis, Panagiotis G and Vartholomeos, Panagiotis and Iakovidis, Dimitris K},
+  booktitle = {2024 IEEE International Symposium on Biomedical Imaging (ISBI)},
+  pages = {1--5},
+  year = {2024},
+  organization = {IEEE}
+}
+```
 
 ## Contributors
 * [George Dimas](https://www.linkedin.com/in/george-dimas-ph-d-33230bba/)
