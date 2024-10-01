@@ -82,7 +82,7 @@ reduce_lr = LearningRateScheduler(lr_scheduler)
 optimizer = SGD(learning_rate=learning_rate, decay=lr_decay,
                 momentum=momentum, nesterov=True)
 
-epu.compile(optimizer=optimizer, loss=[dice_coef_loss, "mse", "mse"], metrics=[config["metric"]],
+epu.compile(optimizer=optimizer, loss=[dice_coef_loss, "mse", "mse"],
             run_eagerly=False)
 epu.fit(x=train_datagen, epochs=3000, validation_data=valid_datagen,
         batch_size=32,
